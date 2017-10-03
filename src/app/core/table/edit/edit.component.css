@@ -1,0 +1,41 @@
+.wrapper {
+  position: absolute;
+  top: 63px;
+  right: 0;
+  z-index: 1;
+  border-left: 2px solid #ddd;
+}
+.edit {
+  background-color: #fff;
+  width: 850px;
+  height: 100vh;
+  text-align: center;
+}
+.edit p:first-child {
+  background-color: #76787b;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+.edit span{
+  display: block;
+  font-size: 50px;
+}
+.save {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+.save button:first-child {
+  width: 200px;
+  background-color: #649b17;
+  color: white;
+  border: 2px solid #649b17;
+}
+.save button:nth-child(2) {
+  width: 200px;
+  background-color: transparent;
+  color: #649b17;
+  border: 2px solid #649b17;
+}

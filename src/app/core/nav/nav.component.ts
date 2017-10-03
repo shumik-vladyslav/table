@@ -7,8 +7,14 @@ import {OAuthService} from "angular-oauth2-oidc";
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  showHide;
 
-  constructor(private oauthService: OAuthService) { }
+  constructor(private oauthService: OAuthService) {
+    this.showHide = false;
+  }
+  changeShowStatus(){
+    this.showHide = !this.showHide;
+  }
 
   ngOnInit() {
     console.log(this.oauthService.getIdentityClaims())

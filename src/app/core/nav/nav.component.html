@@ -1,13 +1,37 @@
-<div>
-  <div class="row">
-    <div class="left-menu col-md-2">
-      <div>
-        <a class="navbar-brand" href="#">340Basic</a>
-      </div>
-    </div>
-    <div class="col-md-10 menu-content">
-    </div>
+<div class="container-fluid nav-header">
+  <div class="left-menu col-md-2">
+    <a href="#">340Basic</a>
   </div>
-  <button (click)="login()">login</button>
-  <button (click)="logoff()">logout</button>
+  <div class="col-md-10" style="padding-top: 5px;border-left: 2px solid #f5f5f5;">
+      <div class="col-md-3" style="float: right">
+        <div class="row" (click)="changeShowStatus()">
+          <div class="col-md-3 photo">
+            <span></span>
+          </div>
+          <div class="col-md-9 name">
+            <p>Jon Doe</p>
+            <p>Super Administrator</p>
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </div>
+          <div class="login" *ngIf="showHide">
+            <button (click)="login()">login</button>
+            <button (click)="logoff()">logout</button>
+          </div>
+        </div>
+      </div>
+  </div>
 </div>
+
+<!--<div>-->
+  <!--<div class="row">-->
+    <!--<div class="left-menu col-md-2">-->
+      <!--<div>-->
+        <!--<a class="navbar-brand" href="#">340Basic</a>-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-md-10 menu-content">-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<button (click)="login()">login</button>-->
+  <!--<button (click)="logoff()">logout</button>-->
+<!--</div>-->

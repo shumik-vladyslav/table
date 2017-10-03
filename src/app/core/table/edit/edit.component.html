@@ -1,5 +1,10 @@
-<div>
-  {{editSelect[searchOption]}}
-  <button (click)="saveChanges()">Save Changes</button>
-  <button (click)="cancel()">Cancel</button>
+<div class="wrapper">
+  <div class="edit">
+    <p>Manage Covered Entity</p>
+    <span>{{editSelect[searchOption]}}</span>
+  </div>
+  <div class="save">
+    <button (click)="saveChanges()">Save Changes</button>
+    <button (click)="cancel()">Cancel</button>
+  </div>
 </div>

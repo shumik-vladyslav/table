@@ -47,7 +47,7 @@ export const authConfig: AuthConfig = {
     PharmaciesComponent
   ],
   imports: [
-    AppRoutingModule,
+    // AppRoutingModule,
     BrowserModule,
     FormsModule,
     HttpModule,

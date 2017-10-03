@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./left-menu.component.css']
 })
 export class LeftMenuComponent implements OnInit {
-
-  constructor() { }
+  showHide;
+  constructor() {
+    this.showHide = false;
+  }
+  changeShowStatus(){
+    this.showHide = !this.showHide;
+  }
 
   ngOnInit() {
   }
