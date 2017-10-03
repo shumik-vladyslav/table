@@ -11,6 +11,7 @@ export class NavComponent implements OnInit {
   constructor(private oauthService: OAuthService) { }
 
   ngOnInit() {
+    console.log(this.oauthService.getIdentityClaims())
   }
 
   public login() {

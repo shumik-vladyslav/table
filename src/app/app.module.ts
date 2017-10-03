@@ -16,6 +16,8 @@ import {searchPipe} from "./shared/pipe/serach.pipe";
 import { ModalModule } from 'ngx-modialog';
 import { BootstrapModalModule } from 'ngx-modialog/plugins/bootstrap';
 import { EditComponent } from './core/table/edit/edit.component';
+import {AppRoutingModule} from "./app-routing.module";
+import { PharmaciesComponent } from './components/pharmacies/pharmacies.component';
 
 export const authConfig: AuthConfig = {
 
@@ -41,9 +43,11 @@ export const authConfig: AuthConfig = {
     ClientsComponent,
     NavComponent,
     LeftMenuComponent,
-    EditComponent
+    EditComponent,
+    PharmaciesComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     FormsModule,
     HttpModule,
