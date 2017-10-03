@@ -1,0 +1,67 @@
+:host .ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+
+:host .ibox-content {
+  clear: both;
+}
+
+:host .ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+
+.navbar-header {
+  border-right: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.left-menu{
+  border-right: 2px solid #f5f5f5;
+  /*border-bottom: 2px solid #f5f5f5*/
+}
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.menu-content{
+  border-bottom: 2px solid #f5f5f5;
+  width: 100%;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+.nav-pills>li>a {
+  border-radius: 0px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+.well-table{
+  padding: 19px;
+  background-color: #f9f9f9;
+}
